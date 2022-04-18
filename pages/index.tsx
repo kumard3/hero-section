@@ -7,7 +7,10 @@ import HeroSection4 from "../components/HeroSection4";
 export default function Home() {
   return (
     <div className="min-h-screen   text-center dark:bg-black dark:text-gray-200">
+      <HeroSection2 />
+      <HeroSection3 />
       <HeroSection4 />
+      <HeroSection />
     </div>
   );
 }
