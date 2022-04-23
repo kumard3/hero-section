@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 export default function HeroSection2() {
   return (
     <div className="relative min-h-screen w-full ">
