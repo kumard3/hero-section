@@ -21,7 +21,7 @@ export default function HeroSection5() {
           <div className=" hidden sm:flex">
             {NavData.map((item, index) => {
               return (
-                <h1 className="text-xl Rubik-SemiBold mx-2" key={index}>
+                <h1 className="text-xl rubiksemiBold mx-2" key={index}>
                   {item}
                 </h1>
               )
@@ -29,14 +29,14 @@ export default function HeroSection5() {
           </div>
         </>
         <div>
-          <button className="border-2 rounded-xl border-[#FFA503] hover:bg-[#FFA503] duration-150 ease-in-out hover:duration-150  w-[170.13px] h-[60.05px] text-xl Rubik-SemiBold">
+          <button className="border-2 rounded-xl border-[#FFA503] hover:bg-[#FFA503] duration-150 ease-in-out hover:duration-150  w-[170.13px] h-[60.05px] text-xl rubiksemiBold">
             Login
           </button>
         </div>
       </nav>
       <div className=" grid lg:grid-cols-2 items-center overflow-hidden">
         <div className="px-3 sm:px-4 max-w-3xl relative z-50 ">
-          <h1 className="Rubik-Medium text-4xl pt-10 sm:pt-0 md:text-[55px] leading-[1.2] max-w-3xl text-left">
+          <h1 className="rubikmedium  text-4xl pt-10 sm:pt-0 md:text-[55px] leading-[1.2] max-w-3xl text-left">
             Discover unique NFTs and Digital arts on our platform with ease
           </h1>
           <div className="relative overflow-hidden flex max-w-3xl items-center ">
@@ -56,7 +56,7 @@ export default function HeroSection5() {
               </svg>
               <input
                 placeholder="Enter your email to get started"
-                className="Rubik-Bold sm:text-lg -top-1 rounded-br-3xl text-sm bg-transparent focus:outline-none px-4 text-white z-10 w-full absolute inset-0"
+                className="rubikbold sm:text-lg -top-1 rounded-br-3xl text-sm bg-transparent focus:outline-none px-4 text-white z-10 w-full absolute inset-0"
               />
             </div>
             <svg
@@ -106,7 +106,7 @@ export default function HeroSection5() {
             </svg>
           </div>
           <div className="py-10 sm:py-20 relative overflow-hidden">
-            <h1 className="Rubik-Medium text-left pt-20 text-2xl">
+            <h1 className="rubikmedium  text-left pt-20 text-2xl">
               Trade with any of the following Coins
             </h1>
             <div className="flex">
@@ -122,7 +122,13 @@ export default function HeroSection5() {
         <div className="absolute top-0 right-0  overflow-hidden object-contain">
           <div className="bg-black/40 sm:bg-black/0 w-full h-full absolute z-10 "></div>
           <div className="bg-gradient-to-r from-black to-[#fff0] w-[100px]  h-full absolute  -left-10 z-10  "></div>
-          <img src={image} alt="Upload" height="600" width="600" className="relative opacity-95 object-fill" />
+          <img
+            src={image}
+            alt="Upload"
+            height="600"
+            width="600"
+            className="relative opacity-95 object-fill"
+          />
           <div className="bg-gradient-to-t from-black to-[#00000000] w-full  h-[200px] absolute  bottom-0 "></div>
           <div className="bg-gradient-to-b from-black to-[#00000000] w-full  h-[150px] absolute  top-0 "></div>
         </div>
@@ -149,7 +155,7 @@ export default function HeroSection5() {
 //           <div className=" hidden sm:flex">
 //             {NavData.map((item, index) => {
 //               return (
-//                 <h1 className="text-xl Rubik-SemiBold mx-2" key={index}>
+//                 <h1 className="text-xl rubiksemiBold mx-2" key={index}>
 //                   {item}
 //                 </h1>
 //               )
@@ -157,14 +163,14 @@ export default function HeroSection5() {
 //           </div>
 //         </>
 //         <div>
-//           <button className="border-2 rounded-xl border-[#FFA503] hover:bg-[#FFA503] duration-150 ease-in-out hover:duration-150  w-[170.13px] h-[60.05px] text-xl Rubik-SemiBold">
+//           <button className="border-2 rounded-xl border-[#FFA503] hover:bg-[#FFA503] duration-150 ease-in-out hover:duration-150  w-[170.13px] h-[60.05px] text-xl rubiksemiBold">
 //             Login
 //           </button>
 //         </div>
 //       </nav>
 //       <div className=" grid lg:grid-cols-2 items-center overflow-hidden">
 //         <div className="px-3 sm:px-4 max-w-3xl relative z-50 ">
-//           <h1 className="Rubik-Medium text-4xl pt-10 sm:pt-0 md:text-[55px] leading-[1.2] max-w-3xl text-left">
+//           <h1 className="rubikmedium  text-4xl pt-10 sm:pt-0 md:text-[55px] leading-[1.2] max-w-3xl text-left">
 //             Discover unique NFTs and Digital arts on our platform with ease
 //           </h1>
 //           <div className="relative overflow-hidden flex max-w-3xl items-center ">
@@ -184,7 +190,7 @@ export default function HeroSection5() {
 //               </svg>
 //               <input
 //                 placeholder="Enter your email to get started"
-//                 className="Rubik-Bold sm:text-lg -top-1 rounded-br-3xl text-sm bg-transparent focus:outline-none px-4 text-white z-10 w-full absolute inset-0"
+//                 className="rubikbold sm:text-lg -top-1 rounded-br-3xl text-sm bg-transparent focus:outline-none px-4 text-white z-10 w-full absolute inset-0"
 //               />
 //             </div>
 //             <svg
@@ -234,7 +240,7 @@ export default function HeroSection5() {
 //             </svg>
 //           </div>
 //           <div className="py-10 sm:py-20 relative overflow-hidden">
-//             <h1 className="Rubik-Medium text-left pt-20 text-2xl">
+//             <h1 className="rubikmedium  text-left pt-20 text-2xl">
 //               Trade with any of the following Coins
 //             </h1>
 //             <div className="flex">

@@ -1,41 +1,39 @@
 @import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@200;300;400;500;600;700&display=swap');
+
+@font-face {
+  font-family: joyride;
+  src: url(/fonts/Joyride-Round.otf);
+}
+@font-face {
+  font-family: outerSans;
+  src: url(/fonts/MADE-Outer-Sans.otf);
+}
+@font-face {
+  font-family: didot;
+  src: url(/fonts/Didot.ttf);
+}
+@font-face {
+  font-family: grillsans;
+  src: url(/fonts/GillSans.otf);
+}
+@font-face {
+  font-family: rubikBold;
+  src: url(/fonts/Rubik-Bold.ttf);
+}
+@font-face {
+  font-family: rubikMedium;
+  src: url(/fonts/Rubik-Medium.ttf);
+}
+@font-face {
+  font-family: rubikSemiBold;
+  src: url(/fonts/Rubik-SemiBold.ttf);
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-/* @font-face {
-  font-family: 'Joyride';
-  src: url(../fonts/Joyride-Round.otf) format('opentype');
-} */
 
-@font-face {
-  font-family: joyride;
-  src: url(../fonts/Joyride-Round.otf);
-}
-@font-face {
-  font-family: outerSans;
-  src: url(../fonts/MADE-Outer-Sans.otf);
-}
-@font-face {
-  font-family: didot;
-  src: url(../fonts/Didot.ttf);
-}
-@font-face {
-  font-family: grillsans;
-  src: url(../fonts/GillSans.otf);
-}
-@font-face {
-  font-family: Rubik-Bold;
-  src: url(../fonts/Rubik-Bold.ttf);
-}
-@font-face {
-  font-family: Rubik-Medium;
-  src: url(../fonts/Rubik-Medium.ttf);
-}
-@font-face {
-  font-family: Rubik-SemiBold;
-  src: url(../fonts/Rubik-SemiBold.ttf);
-}
 
 .Readex {
   font-family: 'Readex Pro', sans-serif;
@@ -52,12 +50,12 @@
 .grillsans {
   font-family: grillsans;
 }
-.Rubik-SemiBold {
-  font-family:  Rubik-SemiBold;
+.rubiksemiBold {
+  font-family:  rubikSemiBold;
 }
-.Rubik-Medium {
-  font-family:  Rubik-Medium;
+.rubikmedium  {
+  font-family:  rubikMedium;
 }
-.Rubik-Bold {
-  font-family:  Rubik-Bold;
+.rubikbold {
+  font-family:  rubikBold;
 }
