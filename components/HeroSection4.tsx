@@ -69,7 +69,7 @@ export default function HeroSection4() {
           </div>
         </div>
         <div>
-          <img src="/illustration1.png" width="400" height="400" alt="nft" />
+          <img src="https://res.cloudinary.com/ddcg0rzlo/image/upload/v1650305311/Illustration1_bbniur.png" width="400" height="400" alt="nft" />
         </div>
       </div>
     </div>

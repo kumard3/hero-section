@@ -1,5 +1,6 @@
+/* eslint-disable @next/next/no-img-element */
 /* eslint-disable react/no-unescaped-entities */
-import Image from "next/image";
+
 import React from "react";
 
 export default function HeroSection3() {
@@ -27,8 +28,8 @@ export default function HeroSection3() {
           <div className="absolute left-[50%] -bottom-6 h-[49px]  w-[49px] rounded-full bg-gradient-to-r from-[#D8D8D8] to-black"></div>
         </div>
         <div className="hidden lg:block">
-          <Image
-            src="/illustration.png"
+          <img
+            src="https://res.cloudinary.com/ddcg0rzlo/image/upload/v1650305316/illustration_hjlckd.png"
             width={488.96}
             height={664.04}
             alt="illustration"
@@ -37,7 +38,7 @@ export default function HeroSection3() {
       </div>
       <div className="absolute top-[20%] right-[2%] h-[49px]  w-[49px] rounded-full bg-[#FF9890] "></div>
 
-      <div className="container container mx-auto flex w-full items-start">
+      <div className="container  mx-auto flex w-full items-start">
         <button className="grillsans  rounded-t-lg bg-gradient-to-r from-black to-[#303030] py-6  px-10 text-xl ">
           Learn More
         </button>
