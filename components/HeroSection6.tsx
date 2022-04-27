@@ -8,16 +8,16 @@ export default function HeroSection6() {
       <div className="absolute inset-0 object-contain  ">
         <div className="absolute  top-0 left-0 ">
           <img
-            src="space.png"
+            src="/space.png"
             className="relative object-fill w-screen min-h-screen "
           />
         </div>
       </div>
       <div className="absolute -top-[700px] -left-[100px]">
-        <img src="Gradient3.svg" className="relative " />
+        <img src="/Gradient3.svg" className="relative " />
       </div>
       <div className="absolute opacity-80  md:opacity-100 -top-[700px] -right-[1000px] sm:-top-[500px] sm:-right-[800px]">
-        <img src="gradient1.svg" className="relative " />
+        <img src="/gradient1.svg" className="relative " />
       </div>
 
       <div className="flex justify-between w-full  items-center relative z-10 px-2 sm:px-10 py-3">
@@ -47,10 +47,10 @@ export default function HeroSection6() {
       </div>
 
       <div className="absolute -bottom-[800px] -left-[600px] sm:-bottom-[700px] sm:-left-[500px] ">
-        <img src="gradient.svg" className="relative " />
+        <img src="/gradient.svg" className="relative " />
       </div>   
      <div className="absolute -bottom-[350px] left-[450px] ">
-        <img src="Gradient2.svg" className="relative " />
+        <img src="/Gradient2.svg" className="relative " />
       </div>
     </div>
   )
