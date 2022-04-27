@@ -28,6 +28,18 @@
   font-family: rubikSemiBold;
   src: url(/fonts/Rubik-SemiBold.ttf);
 }
+@font-face {
+  font-family: aberMono;
+  src: url(/fonts/Aber-Mono-Bold.otf);
+}
+@font-face {
+  font-family: raleway;
+  src: url(/fonts/Raleway-Medium.ttf);
+}
+@font-face {
+  font-family: ralewayRegular;
+  src: url(/fonts/Raleway-Regular.ttf);
+}
 
 @tailwind base;
 @tailwind components;
@@ -58,4 +70,14 @@
 }
 .rubikbold {
   font-family:  rubikBold;
+}
+
+.AberMono{
+  font-family:  aberMono;
+}
+.Raleway-Medium{
+  font-family:  raleway;
+}
+.Raleway-Regular{
+  font-family:  ralewayRegular;
 }
