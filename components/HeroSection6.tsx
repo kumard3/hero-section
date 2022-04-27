@@ -8,7 +8,7 @@ export default function HeroSection6() {
       <div className="absolute inset-0 object-contain  ">
         <div className="absolute  top-0 left-0 ">
           <img
-            src="/space.png"
+            src="/SPACE.png"
             className="relative object-fill w-screen min-h-screen "
           />
         </div>
@@ -48,8 +48,8 @@ export default function HeroSection6() {
 
       <div className="absolute -bottom-[800px] -left-[600px] sm:-bottom-[700px] sm:-left-[500px] ">
         <img src="/gradient.svg" className="relative " />
-      </div>   
-     <div className="absolute -bottom-[350px] left-[450px] ">
+      </div>
+      <div className="absolute -bottom-[350px] left-[450px] ">
         <img src="/Gradient2.svg" className="relative " />
       </div>
     </div>
