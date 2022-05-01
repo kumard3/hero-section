@@ -4,7 +4,7 @@ import React from 'react'
 
 export default function HeroSection6() {
   return (
-    <div className="relative min-h-screen  ">
+    <div className="relative min-h-screen overflow-hidden ">
       <div className="absolute inset-0 object-contain  ">
         <div className="absolute  top-0 left-0 ">
           <img

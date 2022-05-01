@@ -40,6 +40,21 @@
   font-family: ralewayRegular;
   src: url(/fonts/Raleway-Regular.ttf);
 }
+@font-face {
+  font-family: IBMPlexMonoBold;
+  src: url(/fonts/IBMPlexMono-Bold.ttf);
+}@font-face {
+  font-family: IBMPlexMonoSemiBold;
+  src: url(/fonts/IBMPlexMono-SemiBold.ttf);
+}
+@font-face {
+  font-family: IBMPlexMonoRegular;
+  src: url(/fonts/IBMPlexMono-Regular.ttf);
+}
+@font-face {
+  font-family: IBMPlexMonoMedium;
+  src: url(/fonts/IBMPlexMono-Medium.ttf);
+}
 
 @tailwind base;
 @tailwind components;
